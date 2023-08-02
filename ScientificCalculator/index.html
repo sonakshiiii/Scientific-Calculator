@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mt-4 mb-4">Scientific Calculator</h1>
+        <div class="row">
+            <div class="col-12 offset-md-3 col-md-6 " >
+                <div class="card ">
+                    <div class="card-body">
+                        <input id="calc-display" readonly class="form-control form-control-lg text-end border-secondary" type="text" aria-label=".form-control-lg example">
+                        <div class="row gx-3">
+                            
+                            <div class="col-3">
+                                <button type="button" class="btn btn-secondary w-100 mt-3 border">(</button>
+                            </div>
+                            <div class="col-3">
+                                <button type="button" class="btn btn-secondary w-100 mt-3 border">)</button>
+                            </div>
+                            <div class="col-3">
+                                <button type="button" class="btn btn-danger w-100 mt-3 border">AC</button>
+                            </div>
+                            <div class="col-3">
+                                <button type="button" class="btn btn-warning w-100 mt-3 border">⌫</button>
+                            </div>
+
+                            <div class="col-3">
+                                <button type="button" class="btn btn-light w-100 mt-3 border">7</button>
+                            </div>
+                            <div class="col-3">
+                                <button type="button" class="btn btn-light w-100 mt-3 border">8</button>
+                            </div>
+                            <div class="col-3">
+                                <button type="button" class="btn btn-light w-100 mt-3 border">9</button>
+                            </div>
+                            <div class="col-3">
+                                <button type="button" class="btn btn-secondary w-100 mt-3 border">÷</button>
+                            </div>
+
+                            <div class="col-3">
+                                <button type="button" class="btn btn-light w-100 mt-3 border">4</button>
+                            </div>
+                            <div class="col-3">
+                                <button type="button" class="btn btn-light w-100 mt-3 border">5</button>
+                            </div>
+                            <div class="col-3">
+                                <button type="button" class="btn btn-light w-100 mt-3 border">6</button>
+                            </div>
+                            <div class="col-3">
+                                <button type="button" class="btn btn-secondary w-100 mt-3 border">×</button>
+                            </div>
+
+                            <div class="col-3">
+                                <button type="button" class="btn btn-light w-100 mt-3 border">1</button>
+                            </div>
+                            <div class="col-3">
+                                <button type="button" class="btn btn-light w-100 mt-3 border">2</button>
+                            </div>
+                            <div class="col-3">
+                                <button type="button" class="btn btn-light w-100 mt-3 border">3</button>
+                            </div>
+                            <div class="col-3">
+                                <button type="button" class="btn btn-secondary w-100 mt-3 border">-</button>
+                            </div>
+
+                            <div class="col-3">
+                                <button type="button" class="btn btn-light w-100 mt-3 border">0</button>
+                            </div>
+                            <div class="col-3">
+                                <button type="button" class="btn btn-light w-100 mt-3 border">.</button>
+                            </div>
+                            <div class="col-3">
+                                <button type="button" class="btn btn-primary w-100 mt-3 border-primary">=</button>
+                            </div>
+                            <div class="col-3">
+                                <button type="button" class="btn btn-secondary w-100 mt-3 border">+</button>
+                            </div>
+
+                            <div class="col-3">
+                                <button type="button" class="btn btn-secondary w-100 mt-3 border">sin</button>
+                            </div>
+                            <div class="col-3">
+                                <button type="button" class="btn btn-secondary w-100 mt-3 border">cos</button>
+                            </div>
+                            <div class="col-3">
+                                <button type="button" class="btn btn-secondary w-100 mt-3 border">tan</button>
+                            </div>
+                            <div class="col-3">
+                                <button type="button" class="btn btn-secondary w-100 mt-3 border">%</button>
+                            </div>
+
+                            <div class="col-3">
+                                <button type="button" class="btn btn-secondary w-100 mt-3 border">ln</button>
+                            </div>
+                            <div class="col-3">
+                                <button type="button" class="btn btn-secondary w-100 mt-3 border">log</button>
+                            </div>
+                            <div class="col-3">
+                                <button type="button" class="btn btn-secondary w-100 mt-3 border">x!</button>
+                            </div>
+                            <div class="col-3">
+                                <button type="button" class="btn btn-secondary w-100 mt-3 border">√</button>
+                            </div>
+
+                            <div class="col-3">
+                                <button type="button" class="btn btn-secondary w-100 mt-3 border">Inv</button>
+                            </div>
+                            <div class="col-3">
+                                <button type="button" class="btn btn-secondary w-100 mt-3 border">Exp</button>
+                            </div>
+                            <div class="col-3">
+                                <button type="button" class="btn btn-secondary w-100 mt-3 border">π</button>
+                            </div>
+                            <div class="col-3">
+                                <button type="button" class="btn btn-secondary w-100 mt-3 border">e</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
